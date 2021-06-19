@@ -1,0 +1,39 @@
+.slide-1 {
+   &__image {
+      position: absolute;
+      left: 0;
+      width: 50%;
+      height: 100%;
+      img {
+         position: absolute;
+         top: 25%;
+         right: 0;
+      }
+   }
+   &__content {
+      position: absolute;
+      left: 50%;
+      width: 50%;
+      height: 100%;
+      background-color: $wet-asphalt;
+      color: #fff;
+      padding: 128px 0;
+
+      h1,
+      h2,
+      p {
+         margin: 0 80px;
+      }
+
+      h1 {
+         margin-bottom: 28px;
+         text-align: right;
+      }
+
+      h2 {
+         margin-bottom: 28px;
+         font-weight: 400;
+         width: 60%;
+      }
+   }
+}
