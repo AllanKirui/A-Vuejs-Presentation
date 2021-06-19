@@ -17,4 +17,84 @@ body {
   font-family: "PT Sans", sans-serif;
   color: #34495e;
 }
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.slide {
+  width: 1024px;
+  height: 550px;
+  border: 1px solid #34495e;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide img.logo-halved {
+  position: absolute;
+  top: -0.5%;
+  left: -31.4%;
+}
+
+.slide-1__image {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.slide-1__image img {
+  position: absolute;
+  top: 25%;
+  right: 0;
+}
+
+.slide-1__content {
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  background-color: #34495e;
+  color: #fff;
+  padding: 128px 0;
+}
+
+.slide-1__content h1,
+.slide-1__content h2,
+.slide-1__content p {
+  margin: 0 80px;
+}
+
+.slide-1__content h1 {
+  margin-bottom: 28px;
+  text-align: right;
+}
+
+.slide-1__content h2 {
+  margin-bottom: 28px;
+  font-weight: 400;
+  width: 60%;
+}
 /*# sourceMappingURL=style.css.map */
