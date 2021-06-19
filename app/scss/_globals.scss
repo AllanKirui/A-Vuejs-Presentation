@@ -15,3 +15,41 @@ body {
    font-family: "PT Sans", sans-serif;
    color: $wet-asphalt;
 }
+
+h1,
+h2,
+p {
+   margin-top: 0;
+}
+h1 {
+   font-size: $font-xl;
+}
+
+h2 {
+   font-size: $font-lg;
+}
+
+p {
+   font-size: $font-sm;
+}
+
+.container {
+   width: 100vw;
+   height: 100vh;
+   display: grid;
+   place-items: center;
+}
+
+.slide {
+   width: 1024px;
+   height: 550px;
+   border: 1px solid $wet-asphalt;
+   overflow: hidden;
+   position: relative;
+
+   img.logo-halved {
+      position: absolute;
+      top: -0.5%;
+      left: -31.4%;
+   }
+}
