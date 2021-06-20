@@ -44,12 +44,33 @@ p {
    width: 1024px;
    height: 550px;
    border: 1px solid $wet-asphalt;
-   overflow: hidden;
+   overflow-x: hidden;
    position: relative;
 
    img.logo-halved {
       position: absolute;
       top: -0.5%;
       left: -31.4%;
+   }
+
+   @include breakpoint-down(medium) {
+      width: 90%;
+      height: 80%;
+
+      img.logo-halved {
+         position: absolute;
+         top: -0.5%;
+         left: -35%;
+      }
+   }
+
+   @include breakpoint-down(small) {
+      width: 100vw;
+      height: 100vh;
+
+      img.logo-halved {
+         left: -31.5%;
+         height: 30%;
+      }
    }
 }
