@@ -16,6 +16,7 @@ body {
   padding: 0;
   font-family: "PT Sans", sans-serif;
   color: #34495e;
+  overflow-x: hidden;
 }
 
 h1,
@@ -45,14 +46,15 @@ p {
 }
 
 .slide {
+  overflow: hidden;
   width: 1024px;
   height: 550px;
   border: 1px solid #34495e;
-  overflow-x: hidden;
   position: relative;
 }
 
 .slide img.logo-halved {
+  z-index: -1;
   position: absolute;
   top: -0.5%;
   left: -31.4%;
@@ -79,6 +81,10 @@ p {
     left: -31.5%;
     height: 30%;
   }
+}
+
+.text-bold {
+  font-weight: bold;
 }
 
 .slide-1__image {
@@ -173,5 +179,87 @@ p {
   .slide-1__content p {
     line-height: 22px;
   }
+}
+
+.slide-2__image {
+  background-color: red;
+}
+
+.slide-2__image img {
+  position: absolute;
+  top: 19%;
+  right: 5%;
+  width: 120px;
+}
+
+.slide-2__content {
+  padding-top: 94px;
+}
+
+.slide-2__content h2,
+.slide-2__content p {
+  text-align: center;
+  font-weight: 400;
+}
+
+.slide-2__content p {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 55%;
+}
+
+.slide-2__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 45px;
+}
+
+.slide-2__cards .card {
+  width: 200px;
+  min-height: 230px;
+  -webkit-box-shadow: #34495e33 0px 2px 8px 0px;
+          box-shadow: #34495e33 0px 2px 8px 0px;
+}
+
+.slide-2__cards .card:not(:last-child) {
+  margin-right: 18px;
+}
+
+.slide-2__cards .card p {
+  text-align: center;
+}
+
+.slide-2__cards .card-top {
+  width: 100%;
+  height: 70px;
+  background-color: #34495e;
+  padding-top: 10px;
+}
+
+.slide-2__cards .card-top img {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.slide-2__cards .card-bottom {
+  width: 100%;
+  height: 160px;
+  background-color: #41b783;
+}
+
+.slide-2__cards .card-bottom p:first-child {
+  padding-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */
