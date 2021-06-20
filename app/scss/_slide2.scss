@@ -1,6 +1,29 @@
 .slide-2 {
+   @include breakpoint-down(medium) {
+      width: 90%;
+      height: 100%;
+
+      img.logo-halved {
+         position: absolute;
+         top: -5%;
+         left: -15%;
+         height: 30%;
+      }
+   }
+
+   @include breakpoint-down(small) {
+      width: 100%;
+      height: 100%;
+
+      img.logo-halved {
+         position: absolute;
+         top: 0%;
+         left: -32.5%;
+         height: 14%;
+      }
+   }
+
    &__image {
-      background-color: red;
       img {
          position: absolute;
          top: 19%;
@@ -8,19 +31,25 @@
          width: 120px;
       }
 
-      //   @include breakpoint-down(small) {
-      //      position: absolute;
-      //      left: 0;
-      //      width: 100vw;
-      //      img {
-      //         position: absolute;
-      //         top: 8%;
-      //         right: 50%;
-      //         transform: translateX(50%);
-      //         width: 220px;
-      //         z-index: 1;
-      //      }
-      //   }
+      @include breakpoint-down(medium) {
+         img {
+            top: 20%;
+         }
+      }
+
+      @include breakpoint-down(small) {
+         position: relative;
+         top: 5.5%;
+
+         img {
+            position: relative;
+            bottom: 0%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 220px;
+            z-index: 1;
+         }
+      }
    }
 
    &__content {
@@ -37,18 +66,34 @@
          left: 50%;
          transform: translateX(-50%);
          width: 55%;
+
+         @include breakpoint-down(small) {
+            width: 80%;
+         }
+      }
+
+      @include breakpoint-down(small) {
+         padding-top: 110px;
+
+         h2 {
+            padding: 0 20px;
+         }
       }
    }
 
    &__cards {
-      //   position: relative;
-      //   left: 50%;
-      //   transform: translateX(-50%);
-      display: flex;
-      justify-content: center;
       color: #fff;
       align-items: center;
       margin-top: 45px;
+
+      @include breakpoint-down(medium) {
+         margin-bottom: 20px;
+         flex-wrap: wrap;
+      }
+
+      @include breakpoint-down(small) {
+         flex-direction: column;
+      }
 
       .card {
          width: 200px;
@@ -60,7 +105,6 @@
          }
 
          p {
-            // font-size: 14px;
             text-align: center;
          }
 
@@ -83,6 +127,37 @@
 
             p:first-child {
                padding-top: 10px;
+            }
+         }
+
+         @include breakpoint-down(medium) {
+            width: 40vw;
+
+            &:nth-child(3),
+            &:nth-child(4) {
+               margin-top: 18px;
+            }
+
+            &:nth-child(2),
+            &:nth-child(4) {
+               margin-right: 0;
+            }
+         }
+
+         @include breakpoint-down(small) {
+            width: 90%;
+            &:nth-child(1),
+            &:nth-child(3) {
+               margin-right: 0;
+            }
+
+            &:nth-child(3),
+            &:nth-child(4) {
+               margin-top: 0;
+            }
+
+            &:not(:last-child) {
+               margin-bottom: 18px;
             }
          }
       }
