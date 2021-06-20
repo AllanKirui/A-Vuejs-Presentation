@@ -14,6 +14,7 @@ body {
    padding: 0;
    font-family: "PT Sans", sans-serif;
    color: $wet-asphalt;
+   overflow-x: hidden;
 }
 
 h1,
@@ -41,13 +42,14 @@ p {
 }
 
 .slide {
+   overflow: hidden;
    width: 1024px;
    height: 550px;
    border: 1px solid $wet-asphalt;
-   overflow-x: hidden;
    position: relative;
 
    img.logo-halved {
+      z-index: -1;
       position: absolute;
       top: -0.5%;
       left: -31.4%;
@@ -73,4 +75,8 @@ p {
          height: 30%;
       }
    }
+}
+
+.text-bold {
+   font-weight: bold;
 }
