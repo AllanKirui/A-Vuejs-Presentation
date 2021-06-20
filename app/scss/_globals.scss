@@ -36,7 +36,7 @@ p {
 
 .container {
    width: 100vw;
-   height: 100vh;
+   min-height: 100vh;
    display: grid;
    place-items: center;
 }
@@ -79,4 +79,21 @@ p {
 
 .text-bold {
    font-weight: bold;
+}
+
+// Flex box styles
+.flex {
+   display: flex;
+
+   &-jc-sb {
+      justify-content: space-between;
+   }
+
+   &-jc-c {
+      justify-content: center;
+   }
+
+   &-ai-c {
+      align-items: center;
+   }
 }
