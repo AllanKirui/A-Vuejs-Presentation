@@ -1,0 +1,90 @@
+.slide-2 {
+   &__image {
+      background-color: red;
+      img {
+         position: absolute;
+         top: 19%;
+         right: 5%;
+         width: 120px;
+      }
+
+      //   @include breakpoint-down(small) {
+      //      position: absolute;
+      //      left: 0;
+      //      width: 100vw;
+      //      img {
+      //         position: absolute;
+      //         top: 8%;
+      //         right: 50%;
+      //         transform: translateX(50%);
+      //         width: 220px;
+      //         z-index: 1;
+      //      }
+      //   }
+   }
+
+   &__content {
+      padding-top: 94px;
+
+      h2,
+      p {
+         text-align: center;
+         font-weight: 400;
+      }
+
+      p {
+         position: relative;
+         left: 50%;
+         transform: translateX(-50%);
+         width: 55%;
+      }
+   }
+
+   &__cards {
+      //   position: relative;
+      //   left: 50%;
+      //   transform: translateX(-50%);
+      display: flex;
+      justify-content: center;
+      color: #fff;
+      align-items: center;
+      margin-top: 45px;
+
+      .card {
+         width: 200px;
+         min-height: 230px;
+         box-shadow: #34495e33 0px 2px 8px 0px;
+
+         &:not(:last-child) {
+            margin-right: 18px;
+         }
+
+         p {
+            // font-size: 14px;
+            text-align: center;
+         }
+
+         &-top {
+            width: 100%;
+            height: 70px;
+            background-color: $wet-asphalt;
+            padding-top: 10px;
+            img {
+               position: relative;
+               left: 50%;
+               transform: translateX(-50%);
+            }
+         }
+
+         &-bottom {
+            width: 100%;
+            height: 160px;
+            background-color: $mint;
+
+            p:first-child {
+               padding-top: 10px;
+            }
+         }
+      }
+   }
+}
