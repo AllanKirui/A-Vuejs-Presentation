@@ -383,4 +383,132 @@ p {
     margin-bottom: 18px;
   }
 }
+
+@media (max-width: 63.9375em) {
+  .slide-3 {
+    width: 90%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-3 {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.slide-3 img.logo-halved {
+  position: absolute;
+  top: -0.5%;
+  left: -0.5%;
+}
+
+.slide-3__image img {
+  position: absolute;
+  top: 19%;
+  right: 5%;
+  width: 120px;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-3__image img {
+    top: 20%;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-3__image {
+    position: relative;
+    top: 5.5%;
+  }
+  .slide-3__image img {
+    position: relative;
+    bottom: 0%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 220px;
+    z-index: 1;
+  }
+}
+
+.slide-3__content {
+  padding-top: 94px;
+}
+
+.slide-3__content h2 {
+  text-align: center;
+  font-weight: 400;
+}
+
+@media (max-width: 39.9375em) {
+  .slide-3__content {
+    padding-top: 110px;
+  }
+  .slide-3__content h2 {
+    padding: 0 20px;
+  }
+}
+
+.slide-3__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  color: #34495e;
+  margin-top: 60px;
+}
+
+.slide-3__cards .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 240px;
+  height: auto;
+  margin: 0 15px 50px;
+}
+
+.slide-3__cards .card img {
+  margin-right: 10px;
+}
+
+.slide-3__hero .text:not(:last-child) {
+  margin-right: 24px;
+}
+
+.slide-3__hero .text p {
+  font-size: 72px;
+  color: #34495e33;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-3__hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+  }
+  .slide-3__hero .text p {
+    font-size: 54px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-3__hero .text:not(:last-child) {
+    margin-right: 10px;
+  }
+  .slide-3__hero .text p {
+    font-size: 22px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
