@@ -511,4 +511,131 @@ p {
     font-size: 22px;
   }
 }
+
+.slide-5 img.logo-halved {
+  position: absolute;
+  top: -0.5%;
+  left: -0.5%;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-5 {
+    width: 90%;
+    height: 100%;
+  }
+  .slide-5 img.logo-halved {
+    width: 30%;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-5 {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.slide-5__image img {
+  position: absolute;
+  top: 19%;
+  right: 5%;
+  width: 120px;
+  z-index: -1;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-5__image img {
+    top: 20%;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-5__image {
+    position: relative;
+    top: 5.5%;
+  }
+  .slide-5__image img {
+    position: relative;
+    bottom: 0%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 220px;
+    z-index: 1;
+  }
+}
+
+.slide-5__title {
+  padding-top: 94px;
+}
+
+.slide-5__title h2 {
+  text-align: center;
+  font-weight: 400;
+}
+
+@media (max-width: 39.9375em) {
+  .slide-5__title {
+    padding-top: 110px;
+  }
+  .slide-5__title h2 {
+    padding: 0 20px;
+  }
+}
+
+.slide-5__content {
+  color: #34495e;
+  margin: auto;
+  margin-top: 60px;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-5__content {
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+  }
+}
+
+.slide-5__content .card {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 380px;
+}
+
+.slide-5__content .card p {
+  padding: 26px 18px;
+  text-align: center;
+}
+
+.slide-5__content .card:first-child {
+  margin-right: 30px;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-5__content .card {
+    width: 450px;
+    margin-bottom: 20px;
+  }
+  .slide-5__content .card:first-child {
+    margin-right: 0px;
+  }
+  .slide-5__content .card p {
+    padding: 18px 15px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-5__content .card img {
+    width: 90%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
