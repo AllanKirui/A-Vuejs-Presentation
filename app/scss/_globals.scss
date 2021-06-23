@@ -81,6 +81,22 @@ p {
    font-weight: bold;
 }
 
+.text-white {
+   color: #fff;
+}
+
+.hide-for-small {
+   @include breakpoint-down(small) {
+      display: none !important;
+   }
+}
+
+.hide-for-large {
+   @include breakpoint-up(medium) {
+      display: none;
+   }
+}
+
 // Flex box styles
 .flex {
    display: flex;
