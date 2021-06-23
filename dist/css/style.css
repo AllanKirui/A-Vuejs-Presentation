@@ -1024,4 +1024,151 @@ p {
     padding: 18px 0;
   }
 }
+
+.slide-9 img.logo-halved {
+  position: absolute;
+  top: -0.5%;
+  left: -0.5%;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-9 {
+    width: 90%;
+    height: 100%;
+  }
+  .slide-9 img.logo-halved {
+    width: 30%;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-9 {
+    width: 100%;
+    height: 100%;
+  }
+  .slide-9 img.logo-halved {
+    width: auto;
+  }
+}
+
+.slide-9__image img {
+  position: absolute;
+  top: 19%;
+  right: 5%;
+  width: 120px;
+  z-index: -1;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-9__image img {
+    top: 20%;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-9__image {
+    position: relative;
+    top: 5.5%;
+  }
+  .slide-9__image img {
+    position: relative;
+    bottom: 0%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 220px;
+    z-index: 1;
+  }
+}
+
+.slide-9__title {
+  padding-top: 94px;
+}
+
+.slide-9__title h2,
+.slide-9__title p {
+  text-align: center;
+  font-weight: 400;
+}
+
+.slide-9__title h2 {
+  margin-bottom: 18px;
+}
+
+.slide-9__title p {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 58%;
+  margin-bottom: 27px;
+}
+
+@media (max-width: 39.9375em) {
+  .slide-9__title {
+    padding-top: 110px;
+  }
+  .slide-9__title h2 {
+    padding: 0 20px;
+  }
+  .slide-9__title p {
+    width: 80%;
+  }
+}
+
+.slide-9__content p {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-9__content {
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+  }
+}
+
+.slide-9__content .card {
+  width: 400px;
+}
+
+.slide-9__content .card:first-child {
+  position: relative;
+  margin-right: 10px;
+}
+
+.slide-9__content .card:first-child img {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.slide-9__content .card:last-child {
+  padding: 0 7px;
+  margin: auto 0;
+}
+
+.slide-9__content .card:last-child > div {
+  margin-bottom: 24px;
+}
+
+.slide-9__content .card:last-child img {
+  margin-right: 24px;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-9__content .card {
+    margin-bottom: 20px;
+  }
+  .slide-9__content .card:first-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-9__content .card {
+    width: 90%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
