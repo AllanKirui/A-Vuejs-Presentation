@@ -87,7 +87,6 @@
    }
 
    &__content {
-      //   margin: auto;
       margin-top: 20px;
       margin-bottom: 18px;
 
@@ -96,13 +95,11 @@
       }
 
       .card {
-         //  min-height: 200px;
          img {
             margin-bottom: 20px;
          }
 
          flex-direction: column;
-         //  justify-content: center;
          align-items: center;
          width: 400px;
 
