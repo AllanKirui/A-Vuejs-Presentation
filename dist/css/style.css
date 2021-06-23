@@ -584,6 +584,147 @@ p {
   }
 }
 
+.slide-4 img.logo-halved {
+  position: absolute;
+  top: -0.5%;
+  left: -0.5%;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-4 {
+    width: 90%;
+    height: 100%;
+  }
+  .slide-4 img.logo-halved {
+    width: 30%;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-4 {
+    width: 100%;
+    height: 100%;
+  }
+  .slide-4 img.logo-halved {
+    width: auto;
+  }
+}
+
+.slide-4__image img {
+  position: absolute;
+  top: 19%;
+  right: 5%;
+  width: 120px;
+  z-index: -1;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-4__image img {
+    top: 20%;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-4__image {
+    position: relative;
+    top: 5.5%;
+  }
+  .slide-4__image img {
+    position: relative;
+    bottom: 0%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 220px;
+    z-index: 1;
+  }
+}
+
+.slide-4__title {
+  padding-top: 64px;
+}
+
+.slide-4__title h2 {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 39.9375em) {
+  .slide-4__title {
+    padding-top: 110px;
+  }
+  .slide-4__title h2 {
+    padding: 0 20px;
+  }
+  .slide-4__title p {
+    width: 80%;
+  }
+}
+
+.slide-4__content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.slide-4__content .card {
+  width: 400px;
+  padding: 0 5px;
+}
+
+.slide-4__content .card li {
+  list-style: none;
+  margin-left: -40px;
+  margin-bottom: 3px;
+}
+
+.slide-4__content .card span {
+  margin-right: 7px;
+}
+
+.slide-4__content-intro .card:first-child, .slide-4__content-main-feature .card:first-child {
+  margin-right: 15px;
+}
+
+.slide-4__content-main-feature h2 {
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+}
+
+@media (min-width: 64em) {
+  .slide-4__content-intro .card:last-child {
+    width: 390px;
+  }
+}
+
+@media (max-width: 63.9375em) {
+  .slide-4__content {
+    margin-bottom: 20px;
+  }
+  .slide-4__content .card, .slide-4__content-feature {
+    width: 60%;
+  }
+  .slide-4__content-intro, .slide-4__content-main-feature {
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .slide-4__content-intro .card:first-child, .slide-4__content-main-feature .card:first-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-4__content .card, .slide-4__content-feature {
+    width: 90%;
+  }
+}
+
 .slide-5 img.logo-halved {
   position: absolute;
   top: -0.5%;
