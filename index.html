@@ -11,6 +11,8 @@
          rel="stylesheet"
       />
       <link rel="stylesheet" href="dist/css/style.css" />
+      <script src="https://unpkg.com/vue@next"></script>
+      <script src="app/js/script.js" defer></script>
    </head>
    <body>
       <!-- Slide 1 -->
@@ -414,6 +416,48 @@
                         </li>
                      </ul>
                   </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Slide 8 -->
+      <div class="container">
+         <div class="slide slide-8">
+            <img
+               class="logo-halved"
+               src="img/vue_logo_halved2.svg"
+               alt="vue js framework logo halved"
+            />
+            <div class="slide-8__image">
+               <img src="img/vue_logo.svg" alt="vue js framework logo" />
+            </div>
+            <div class="slide-8__title">
+               <h2>LET'S PLAY A GAME!</h2>
+            </div>
+            <div class="slide-8__content flex flex-jc-c">
+               <div class="card">
+                  <img
+                     src="img/phone_outline.svg"
+                     alt="outline of a smartphone"
+                  />
+                  <div id="app">
+                     <!-- Prevent the forms default behaviour -->
+                     <form v-on:submit.prevent>
+                        <input type="text" v-model="name" placeholder="Your name..."/>
+                        <button v-on:click="resetInput">reset</button>
+                     </form>
+                     <p id="counter"> {{ counter }}</p>
+                     <!-- Set up event listeners on the buttons -->
+                     <button v-on:click="add(1)">add</button>
+                     <button v-on:click="reduce(3)">reduce</button>
+                     <p id="message">{{winningMessage}}</p>
+                     <p id="quote">{{ fullQuote }}</p>
+                  </div>
+               </div>
+               <div class="card">
+                  <p>Can you get the counter to <span class="text-bold">-1</span>?</p>
+                  <p>Use the <span class="text-bold">add</span> and <span class="text-bold">reduce</span> buttons to increase or decrease the value of the counter.</p>
                </div>
             </div>
          </div>
