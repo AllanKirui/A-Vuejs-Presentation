@@ -7,25 +7,8 @@ const app = Vue.createApp({
          name: "",
       };
    },
-   // watch: {
-   //    // Here we use "name" from the data property as a watcher method
-   //    // This tells Vue one important thing, whenever "name" changes,
-   //    // the watcher method will re-execute
-   //    name(value) {
-   //       // Inside the braces, we don't return anything, we just add some logic
-   //       // that get's executed when the name changes.
-   //       // Since a watch gets the last/latest value of the watched property,
-   //       // we don't need to use "this.name"
-   //       // Using a second argument above, gives us the previous value
-   //       // of the watch property
-   //       if (value === "") {
-   //          this.fullname = "";
-   //       } else {
-   //          this.fullname = value + " " + "Will Jr";
-   //       }
-   //    },
-   // },
    computed: {
+      // Define a function to show a quote when the user enters their name
       fullQuote() {
          if (this.name === "") {
             return "";
@@ -56,20 +39,15 @@ const app = Vue.createApp({
             ". (seriously, you should be)"
          );
       },
+      // This function adds the number passed in to the "counter" property
       add(num) {
          this.counter += num;
       },
+      // This function subtracts the number passed in to the "counter" property
       reduce(num) {
          this.counter -= num;
       },
-      // The addName() method takes in an event as a parameter
-      // Since we're listening for the "input" event, which
-      // fires off with every keystroke...
-      //   addName(e) {
-      //      // ...we take that keystroke and get it's value and
-      //      // that value is what we pass to the DOM
-      //      this.name = e.target.value;
-      //   },
+      // This function resets the input entered into the form field of the phone
       resetInput() {
          this.name = "";
       },
