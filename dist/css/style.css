@@ -1683,6 +1683,132 @@ p {
   }
 }
 
+.slide-11 img.logo-halved {
+  position: absolute;
+  top: -0.5%;
+  left: -0.5%;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-11 {
+    width: 90%;
+    height: 100%;
+  }
+  .slide-11 img.logo-halved {
+    width: 30%;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-11 {
+    width: 100%;
+    height: 100%;
+  }
+  .slide-11 img.logo-halved {
+    width: auto;
+  }
+}
+
+.slide-11__image img {
+  position: absolute;
+  top: 19%;
+  right: 5%;
+  width: 120px;
+  z-index: -1;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-11__image img {
+    top: 20%;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-11__image {
+    position: relative;
+    top: 5.5%;
+  }
+  .slide-11__image img {
+    position: relative;
+    bottom: 0%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 220px;
+    z-index: 1;
+  }
+}
+
+.slide-11__title {
+  padding-top: 64px;
+}
+
+.slide-11__title h2,
+.slide-11__title p {
+  text-align: center;
+  font-weight: 400;
+}
+
+.slide-11__title h2 {
+  margin-bottom: 10px;
+}
+
+.slide-11__title p {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 55%;
+}
+
+@media (max-width: 39.9375em) {
+  .slide-11__title {
+    padding-top: 110px;
+  }
+  .slide-11__title h2 {
+    padding: 0 20px;
+  }
+  .slide-11__title p {
+    width: 80%;
+  }
+}
+
+.slide-11__content .card-image img {
+  margin-right: 15px;
+}
+
+.slide-11__content .card-description {
+  max-width: 420px;
+}
+
+.slide-11__content .card-description li {
+  list-style: none;
+  padding: 5px;
+  margin-left: -40px;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+.slide-11__content .card-description li img {
+  margin-right: 5px;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-11__content {
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-11__content .card-image img {
+    margin-right: 0;
+  }
+  .slide-11__content .card-description {
+    width: 90%;
+  }
+}
+
 .slide-12 img.logo-halved {
   position: absolute;
   top: -0.5%;
