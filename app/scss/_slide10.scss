@@ -1,0 +1,153 @@
+.slide-10 {
+   img.logo-halved {
+      position: absolute;
+      top: -0.5%;
+      left: -0.5%;
+   }
+
+   @include breakpoint-down(medium) {
+      width: 90%;
+      height: 100%;
+
+      img.logo-halved {
+         width: 30%;
+      }
+   }
+
+   @include breakpoint-down(small) {
+      width: 100%;
+      height: 100%;
+
+      img.logo-halved {
+         width: auto;
+      }
+   }
+
+   &__image {
+      img {
+         position: absolute;
+         top: 19%;
+         right: 5%;
+         width: 120px;
+         z-index: -1;
+      }
+
+      @include breakpoint-down(medium) {
+         img {
+            top: 20%;
+         }
+      }
+
+      @include breakpoint-down(small) {
+         position: relative;
+         top: 5.5%;
+
+         img {
+            position: relative;
+            bottom: 0%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 220px;
+            z-index: 1;
+         }
+      }
+   }
+
+   &__title {
+      padding-top: 64px;
+
+      h2,
+      p {
+         text-align: center;
+         font-weight: 400;
+      }
+
+      h2 {
+         margin-bottom: 10px;
+      }
+
+      p {
+         position: relative;
+         left: 50%;
+         transform: translateX(-50%);
+         width: 55%;
+      }
+
+      @include breakpoint-down(small) {
+         padding-top: 110px;
+
+         h2 {
+            padding: 0 20px;
+         }
+
+         p {
+            width: 80%;
+         }
+      }
+   }
+
+   &__content {
+      //   margin: auto;
+      //   background-color: tomato;
+
+      .card {
+         &:first-child {
+            width: 380px;
+            padding: 10px;
+            margin-right: 15px;
+            background-color: $wet-asphalt;
+            border-radius: 10px;
+            color: $mint;
+
+            p {
+               margin: 0;
+               padding: 0;
+
+               &.indent-1 {
+                  margin-left: 20px;
+               }
+
+               &.indent-2 {
+                  margin-left: 40px;
+               }
+            }
+
+            .mg-btm {
+               margin-bottom: 20px;
+            }
+         }
+
+         &:last-child {
+            max-width: 420px;
+            // background-color: blanchedalmond;
+            li {
+               list-style: none;
+               padding: 5px;
+               margin-left: -40px;
+               margin-bottom: 3px;
+               font-size: 14px;
+
+               img {
+                  margin-right: 5px;
+               }
+            }
+         }
+      }
+
+      @include breakpoint-down(medium) {
+         flex-flow: wrap;
+      }
+
+      @include breakpoint-down(small) {
+         .card {
+            &:first-child {
+               margin-right: 0;
+               width: 95%;
+            }
+            &:last-child {
+               width: 90%;
+            }
+         }
+      }
+   }
+}
