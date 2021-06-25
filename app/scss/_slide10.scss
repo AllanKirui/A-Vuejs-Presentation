@@ -87,39 +87,15 @@
    }
 
    &__content {
-      //   margin: auto;
-      //   background-color: tomato;
-
       .card {
-         &:first-child {
-            width: 380px;
-            padding: 10px;
-            margin-right: 15px;
-            background-color: $wet-asphalt;
-            border-radius: 10px;
-            color: $mint;
-
-            p {
-               margin: 0;
-               padding: 0;
-
-               &.indent-1 {
-                  margin-left: 20px;
-               }
-
-               &.indent-2 {
-                  margin-left: 40px;
-               }
-            }
-
-            .mg-btm {
-               margin-bottom: 20px;
+         &-image {
+            img {
+               margin-right: 15px;
             }
          }
 
-         &:last-child {
+         &-description {
             max-width: 420px;
-            // background-color: blanchedalmond;
             li {
                list-style: none;
                padding: 5px;
@@ -140,11 +116,12 @@
 
       @include breakpoint-down(small) {
          .card {
-            &:first-child {
-               margin-right: 0;
-               width: 95%;
+            &-image {
+               img {
+                  margin-right: 0;
+               }
             }
-            &:last-child {
+            &-description {
                width: 90%;
             }
          }
