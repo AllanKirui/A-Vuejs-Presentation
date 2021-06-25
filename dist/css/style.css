@@ -1534,6 +1534,155 @@ p {
   }
 }
 
+.slide-10 img.logo-halved {
+  position: absolute;
+  top: -0.5%;
+  left: -0.5%;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-10 {
+    width: 90%;
+    height: 100%;
+  }
+  .slide-10 img.logo-halved {
+    width: 30%;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-10 {
+    width: 100%;
+    height: 100%;
+  }
+  .slide-10 img.logo-halved {
+    width: auto;
+  }
+}
+
+.slide-10__image img {
+  position: absolute;
+  top: 19%;
+  right: 5%;
+  width: 120px;
+  z-index: -1;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-10__image img {
+    top: 20%;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-10__image {
+    position: relative;
+    top: 5.5%;
+  }
+  .slide-10__image img {
+    position: relative;
+    bottom: 0%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 220px;
+    z-index: 1;
+  }
+}
+
+.slide-10__title {
+  padding-top: 64px;
+}
+
+.slide-10__title h2,
+.slide-10__title p {
+  text-align: center;
+  font-weight: 400;
+}
+
+.slide-10__title h2 {
+  margin-bottom: 10px;
+}
+
+.slide-10__title p {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 55%;
+}
+
+@media (max-width: 39.9375em) {
+  .slide-10__title {
+    padding-top: 110px;
+  }
+  .slide-10__title h2 {
+    padding: 0 20px;
+  }
+  .slide-10__title p {
+    width: 80%;
+  }
+}
+
+.slide-10__content .card:first-child {
+  width: 380px;
+  padding: 10px;
+  margin-right: 15px;
+  background-color: #34495e;
+  border-radius: 10px;
+  color: #41b783;
+}
+
+.slide-10__content .card:first-child p {
+  margin: 0;
+  padding: 0;
+}
+
+.slide-10__content .card:first-child p.indent-1 {
+  margin-left: 20px;
+}
+
+.slide-10__content .card:first-child p.indent-2 {
+  margin-left: 40px;
+}
+
+.slide-10__content .card:first-child .mg-btm {
+  margin-bottom: 20px;
+}
+
+.slide-10__content .card:last-child {
+  max-width: 420px;
+}
+
+.slide-10__content .card:last-child li {
+  list-style: none;
+  padding: 5px;
+  margin-left: -40px;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+.slide-10__content .card:last-child li img {
+  margin-right: 5px;
+}
+
+@media (max-width: 63.9375em) {
+  .slide-10__content {
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .slide-10__content .card:first-child {
+    margin-right: 0;
+    width: 95%;
+  }
+  .slide-10__content .card:last-child {
+    width: 90%;
+  }
+}
+
 .slide-12 img.logo-halved {
   position: absolute;
   top: -0.5%;
