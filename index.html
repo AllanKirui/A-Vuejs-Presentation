@@ -506,6 +506,79 @@
          </div>
       </div>
 
+      <!-- Slide 10 -->
+      <div class="container">
+         <div class="slide slide-10">
+            <img
+               class="logo-halved"
+               src="img/vue_logo_halved2.svg"
+               alt="vue js framework logo halved"
+            />
+            <div class="slide-10__image">
+               <img src="img/vue_logo.svg" alt="vue js framework logo" />
+            </div>
+            <div class="slide-10__title">
+               <h2>LET'S BREAK DOWN THE APP</h2>
+               <p>Here's a look at the <span class="text-bold">HTML</span> code.</p>
+            </div>
+            <div class="slide-10__content flex flex-jc-c">
+               <!-- Code section -->
+               <div class="card hide-for-small">
+                  <p><<span class="text-white">div</span> id="<span class="text-white">app</span>"></p>
+                  <p class="indent-1"><<span class="text-white">form</span> <span class="text-white text-bold">v-on</span>:<span class="text-white text-bold">submit</span>.<span class="text-white text-bold">prevent</span>></p>
+                  <p class="indent-2"><<span class="text-white">input</span> type="text" <span class="text-white text-bold">v-model</span>:"<span class="text-white text-bold">name</span>"/></p>
+                  <div class="flex">
+                     <p class="indent-2"><<span class="text-white">button</span> <span class="text-white text-bold">v-on</span>:<span class="text-white text-bold">click</span>="resetInput">reset<<p>/</p><span class="text-white">button</span>></p>
+                  </div>
+                  <div class="flex">
+                     <p class="indent-1 mg-btm"><p><</p>/<span class="text-white">form</span>></p>
+                  </div>
+                  <div class="flex">
+                     <p class="indent-1"><<span class="text-white">p</span> id="counter"><span class="text-white">{{</span> counter <span class="text-white">}}</span><p><</p>/p></p>
+                  </div>
+                  <div class="flex">
+                     <p class="indent-1"><<span class="text-white">p</span> id="message"><span class="text-white">{{</span> winningMessage <span class="text-white">}}</span><p><</p>/p></p>
+                  </div>
+                  <div class="flex mg-btm">
+                     <p class="indent-1"><<span class="text-white">p</span> id="quote"><span class="text-white">{{</span> fullQuote <span class="text-white">}}</span><p><</p>/p></p>
+                  </div>
+                  <div class="flex">
+                     <p class="indent-1"><<span class="text-white">button</span> <span class="text-white text-bold">v-on</span>:<span class="text-white text-bold">click</span>="add(1)">add<p><</p><p>/</p><span class="text-white">button</span>></p>
+                  </div>
+                  <div class="flex">
+                     <p class="indent-1"><<span class="text-white">button</span> <span class="text-white text-bold">v-on</span>:<span class="text-white text-bold">click</span>="reduce(2)">reduce<p><</p><p>/</p><span class="text-white">button</span>></p>
+                  </div>
+                  <div class="flex">
+                     <p><<p>/</p><span class="text-white">div</span>></p>
+                  </div>
+               </div>
+               <div class="card-image hide-for-large">
+                  <img src="img/html_illustration.svg" alt="an illustration image containing html code">
+               </div>
+
+               <!-- Description section -->
+               <div class="card">
+                  <ul>
+                     <li><span class="bullet"><img src="img/vue_bullet.svg" alt="vue js logo used as a list bullet"/></span>This <span class="text-bold">div</span> with an id of <span class="text-bold">app</span> is where we connect <span class="text-bold">Vue</span> to our <span class="text-bold">page</span></li>
+                     <li><span class="bullet"><img src="img/vue_bullet.svg" alt="vue js logo used as a list bullet"/></span>In the <span class="text-bold">form</span>, we listen for the <span class="text-bold">submit</span> event with the <span class="text-bold">v-on</span> directive</li>
+                     <li><span class="bullet"><img src="img/vue_bullet.svg" alt="vue js logo used as a list bullet"/></span>We then <span class="text-bold">prevent the default behaviour</span> of the form with the <span class="text-bold">.prevent</span>
+                        modifier</li>
+                     <li><span class="bullet"><img src="img/vue_bullet.svg" alt="vue js logo used as a list bullet"/></span>In the <span class="text-bold">input</span> element, we listen for an <span class="text-bold">input</span> event and at the same
+                        time we're <span class="text-bold">writing the value</span> back to the input element using the
+                        <span class="text-bold">v-model</span> directive</li>
+                     <li><span class="bullet"><img src="img/vue_bullet.svg" alt="vue js logo used as a list bullet"/></span>In the <span class="text-bold">p</span> tags, we use string interpolation (double curly braces <span class="text-bold">{{ }}</span>) to
+                        <span class="text-bold">reference</span> the values of the properties returned by the <span class="text-bold">data( )</span> function
+                        in <span class="text-bold">JavaScript</span></li>
+                     <li><span class="bullet"><img src="img/vue_bullet.svg" alt="vue js logo used as a list bullet"/></span>In the remaining two <span class="text-bold">buttons</span>, we listen for <span class="text-bold">click</span> events with the <span class="text-bold">v-on</span>
+                        directive and execute two functions, <span class="text-bold">add(1)</span> and <span class="text-bold">reduce(2)</span>. The values
+                        passed into the functions are used to <span class="text-bold">increment</span> and <span class="text-bold">decrement</span> the
+                        counter</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+
       <!-- Slide 12 -->
       <div class="container">
          <div class="slide slide-12">
