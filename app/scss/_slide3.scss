@@ -1,18 +1,26 @@
 .slide-3 {
+   img.logo-halved {
+      position: absolute;
+      top: -0.5%;
+      left: -0.5%;
+   }
+
    @include breakpoint-down(medium) {
       width: 90%;
       height: 100%;
+
+      img.logo-halved {
+         width: 30%;
+      }
    }
 
    @include breakpoint-down(small) {
       width: 100%;
       height: 100%;
-   }
 
-   img.logo-halved {
-      position: absolute;
-      top: -0.5%;
-      left: -0.5%;
+      img.logo-halved {
+         width: auto;
+      }
    }
 
    &__image {
@@ -21,6 +29,7 @@
          top: 19%;
          right: 5%;
          width: 120px;
+         z-index: -1;
       }
 
       @include breakpoint-down(medium) {
@@ -44,7 +53,7 @@
       }
    }
 
-   &__content {
+   &__title {
       padding-top: 94px;
 
       h2 {
