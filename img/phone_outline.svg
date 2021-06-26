@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="154.3"
-   height="324"
-   viewBox="0 0 40.825208 85.725002"
+   width="156"
+   height="326"
+   viewBox="0 0 41.274999 86.254168"
    version="1.1"
    id="svg2164"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
@@ -23,17 +23,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="233.47351"
-     inkscape:cy="201.9362"
+     inkscape:zoom="1.979899"
+     inkscape:cx="94.62214"
+     inkscape:cy="77.212715"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
-     inkscape:window-width="1267"
+     inkscape:window-width="1024"
      inkscape:window-height="728"
-     inkscape:window-x="26"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0" />
   <metadata
@@ -54,7 +54,7 @@
      id="layer1">
     <g
        id="g2135"
-       transform="translate(-605.21521,-866.11714)">
+       transform="translate(-604.81431,-866.25078)">
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:#0d161d;stroke-width:0.20449;stroke-opacity:1"
          id="rect2115"
