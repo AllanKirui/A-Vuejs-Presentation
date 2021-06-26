@@ -27,18 +27,7 @@ const app = Vue.createApp({
       },
    },
    methods: {
-      // Define functions to execute when events fire off
-      outputFullQuote() {
-         if (this.name === "") {
-            return "";
-         }
-         return (
-            "Look at your progress and be proud," +
-            " " +
-            this.name.fontcolor("#ff1111") +
-            ". (seriously, you should be)"
-         );
-      },
+      // Here we define functions to execute when events fire off
       // This function adds the number passed in to the "counter" property
       add(num) {
          this.counter += num;
@@ -50,6 +39,7 @@ const app = Vue.createApp({
       // This function resets the input entered into the form field of the phone
       resetInput() {
          this.name = "";
+         this.counter = 20;
       },
    },
 });
