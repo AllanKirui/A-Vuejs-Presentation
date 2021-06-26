@@ -28,7 +28,7 @@ This presentation aims to explain the following:
 
 ### Screenshots
 
-![](./img/markdown_images/1.png)
+![](./img/1.png)
 
 Screenshot of the **first slide** in the presentation.
 
@@ -38,7 +38,7 @@ What's in view:
 
 ---
 
-![](./img/markdown_images/2.png)
+![](./img/2.png)
 
 Screenshot of one of the other slides in the presentation.
 
@@ -48,7 +48,7 @@ What's in view:
 
 ---
 
-![](./img/markdown_images/3.png)
+![](./img/3.png)
 
 Screenshot of one of the other slides in the presentation.
 
@@ -58,7 +58,7 @@ What's in view:
 
 ---
 
-![](./img/markdown_images/4.png)
+![](./img/4.png)
 
 Screenshot of the **design** file for the project.
 
@@ -68,8 +68,8 @@ What's in view:
 
 ---
 
-![](./img/markdown_images/5.png)
-![](./img/markdown_images/6.png)
+![](./img/5.png)
+![](./img/6.png)
 
 Screenshot of the slides on mobile.
 
