@@ -39,6 +39,10 @@ p {
    min-height: 100vh;
    display: grid;
    place-items: center;
+
+   @include breakpoint-down(small) {
+      width: auto;
+   }
 }
 
 .slide {
