@@ -64,7 +64,7 @@ Screenshot of the **design** file for the project.
 
 What's in view:
 
--  The presentation **slides**, the **assets** used, **colors** and more.
+-  The presentation **slides**, the **assets** used, the **colors** used and more.
 
 ---
 
