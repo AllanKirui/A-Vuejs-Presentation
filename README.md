@@ -79,7 +79,7 @@ What's in view:
 
 ### Links
 
--  Live Site URL: [Vuejs Presentation](https://allankirui.github.io/VuejsPresentation/)
+-  Live Site URL: [A Vuejs Presentation](https://allankirui.github.io/A-Vuejs-Presentation/)
 
 ## My process
 
