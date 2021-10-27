@@ -13,7 +13,7 @@
    version="1.1"
    id="svg2319"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
-   sodipodi:docname="html_illustration.svg">
+   sodipodi:docname="html_illustration_mobile.svg">
   <defs
      id="defs2313" />
   <sodipodi:namedview
@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="274.06014"
-     inkscape:cy="170.25953"
+     inkscape:zoom="1.979899"
+     inkscape:cx="144.41275"
+     inkscape:cy="224.93599"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g3128"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -74,11 +74,17 @@
            x="29.259134"
            y="-66.436043"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan2117">&lt;<tspan
-   style="fill:#ffffff"
-   id="tspan2113">div </tspan>id=&quot;<tspan
-   style="fill:#ffffff"
-   id="tspan2115">app</tspan>&quot;&gt;</tspan></text>
+           id="tspan2117"><tspan
+             style="fill:#bdf3d8;fill-opacity:1"
+             id="tspan909">&lt;</tspan><tspan
+             style="fill:#ffffff"
+             id="tspan2113">div </tspan><tspan
+             style="fill:#bdf3d8;fill-opacity:1"
+             id="tspan907">id=&quot;</tspan><tspan
+             style="fill:#ffffff"
+             id="tspan2115">app</tspan><tspan
+             style="fill:#bdf3d8;fill-opacity:1"
+             id="tspan905">&quot;&gt;</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -89,7 +95,9 @@
            x="43.674847"
            y="-61.144417"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan2133">&lt;<tspan
+           id="tspan2133"><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan903">&lt;</tspan><tspan
    style="fill:#ffffff"
    id="tspan2121">form</tspan> <tspan
    style="font-weight:bold;fill:#ffffff"
@@ -101,7 +109,9 @@
    style="font-weight:bold"
    id="tspan2129">.</tspan><tspan
    style="font-weight:bold;fill:#ffffff"
-   id="tspan2131">prevent</tspan>&gt;</tspan></text>
+   id="tspan2131">prevent</tspan><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan901">&gt;</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -112,13 +122,21 @@
            x="53.922283"
            y="-55.852791"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan2143">&lt;<tspan
+           id="tspan2143"><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan895">&lt;</tspan><tspan
    style="fill:#ffffff"
-   id="tspan2137">input</tspan> type=&quot;text&quot; <tspan
+   id="tspan2137">input</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan891">type=&quot;text&quot;</tspan> <tspan
    style="font-weight:bold;fill:#ffffff"
-   id="tspan2139">v-model</tspan>=&quot;<tspan
+   id="tspan2139">v-model</tspan><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan897">=&quot;</tspan><tspan
    style="font-weight:bold;fill:#ffffff"
-   id="tspan2141">name</tspan>&quot; /&gt;</tspan></text>
+   id="tspan2141">name</tspan><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan899">&quot; /&gt;</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -129,9 +147,13 @@
            x="28.076639"
            y="-45.269539"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan2149">&lt;/<tspan
-   style="fill:#ffffff"
-   id="tspan2147">form</tspan>&gt;</tspan></text>
+           id="tspan2149"><tspan
+             style="fill:#bdf3d8;fill-opacity:1"
+             id="tspan917">&lt;/</tspan><tspan
+             style="fill:#ffffff"
+             id="tspan2147">form</tspan><tspan
+             style="fill:#bdf3d8;fill-opacity:1"
+             id="tspan915">&gt;</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -142,15 +164,21 @@
            x="60.81572"
            y="-50.561165"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan2162">&lt;<tspan
+           id="tspan2162"><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan913">&lt;</tspan><tspan
    style="fill:#ffffff"
    id="tspan2153">button</tspan> <tspan
    style="font-weight:bold;fill:#ffffff"
    id="tspan2156">v-on</tspan>:<tspan
    style="font-weight:bold;fill:#ffffff"
-   id="tspan2158">click</tspan>=&quot;resetInput&quot;&gt;reset&lt;/<tspan
+   id="tspan2158">click</tspan><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan893">=&quot;resetInput&quot;&gt;reset&lt;/</tspan><tspan
    style="fill:#ffffff"
-   id="tspan2160">button</tspan>&gt;</tspan></text>
+   id="tspan2160">button</tspan><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan911">&gt;</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -161,15 +189,25 @@
            x="48.54533"
            y="-34.686287"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan2174">&lt;<tspan
+           id="tspan2174"><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan947">&lt;</tspan><tspan
    style="fill:#ffffff"
-   id="tspan2166">p</tspan> id=&quot;counter&quot;&gt; <tspan
+   id="tspan2166">p</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan919">id=&quot;counter&quot;&gt;</tspan> <tspan
    style="fill:#ffffff"
-   id="tspan2168">{{</tspan> counter <tspan
+   id="tspan2168">{{</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan921">counter</tspan> <tspan
    style="fill:#ffffff"
-   id="tspan2170">}}</tspan>&lt;/<tspan
+   id="tspan2170">}}</tspan><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan929">&lt;/</tspan><tspan
    style="fill:#ffffff"
-   id="tspan2172">p</tspan>&gt;</tspan></text>
+   id="tspan2172">p</tspan><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan931">&gt;</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -180,15 +218,25 @@
            x="56.216656"
            y="-29.394663"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan2186">&lt;<tspan
+           id="tspan2186"><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan945">&lt;</tspan><tspan
    style="fill:#ffffff"
-   id="tspan2178">p</tspan> id=&quot;message&quot;&gt;<tspan
+   id="tspan2178">p</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan933">id=&quot;message&quot;&gt;</tspan><tspan
    style="fill:#ffffff"
-   id="tspan2180">{{</tspan> winningMessage <tspan
+   id="tspan2180">{{</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan923">winningMessage</tspan> <tspan
    style="fill:#ffffff"
-   id="tspan2182">}}</tspan>&lt;/<tspan
+   id="tspan2182">}}</tspan><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan925">&lt;/</tspan><tspan
    style="fill:#ffffff"
-   id="tspan2184">p</tspan>&gt;</tspan></text>
+   id="tspan2184">p</tspan><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan927">&gt;</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -199,15 +247,25 @@
            x="48.089703"
            y="-24.103037"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan2199">&lt;<tspan
+           id="tspan2199"><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan943">&lt;</tspan><tspan
    style="fill:#ffffff"
-   id="tspan2190">p</tspan> id=&quot;quote&quot;&gt;<tspan
+   id="tspan2190">p</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan935">id=&quot;quote&quot;&gt;</tspan><tspan
    style="fill:#ffffff"
-   id="tspan2193">{{</tspan> fullQuote <tspan
+   id="tspan2193">{{</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan937">fullQuote</tspan> <tspan
    style="fill:#ffffff"
-   id="tspan2195">}}</tspan>&lt;/<tspan
+   id="tspan2195">}}</tspan><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan939">&lt;/</tspan><tspan
    style="fill:#ffffff"
-   id="tspan2197">p</tspan>&gt;</tspan></text>
+   id="tspan2197">p</tspan><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan941">&gt;</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -218,15 +276,21 @@
            x="55.19865"
            y="-13.519785"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan2212">&lt;<tspan
+           id="tspan2212"><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan957">&lt;</tspan><tspan
    style="fill:#ffffff"
    id="tspan2203">button</tspan> <tspan
    style="font-weight:bold;fill:#ffffff"
    id="tspan2205">v-on</tspan>:<tspan
    style="font-weight:bold;fill:#ffffff"
-   id="tspan2207">click</tspan>=&quot;add(1)&quot;&gt;add&lt;/<tspan
+   id="tspan2207">click</tspan><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan949">=&quot;add(1)&quot;&gt;add&lt;/</tspan><tspan
    style="fill:#ffffff"
-   id="tspan2210">button</tspan>&gt;</tspan></text>
+   id="tspan2210">button</tspan><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan953">&gt;</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -237,15 +301,21 @@
            x="59.973312"
            y="-8.228159"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan2231">&lt;<tspan
+           id="tspan2231"><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan959">&lt;</tspan><tspan
    style="fill:#ffffff"
    id="tspan2216">button</tspan> <tspan
    style="font-weight:bold;fill:#ffffff"
    id="tspan2218">v-on</tspan>:<tspan
    style="font-weight:bold;fill:#ffffff"
-   id="tspan2220">click</tspan>=&quot;reduce(2)&quot;&gt;reduce&lt;/<tspan
+   id="tspan2220">click</tspan><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan951">=&quot;reduce(2)&quot;&gt;reduce&lt;/</tspan><tspan
    style="fill:#ffffff"
-   id="tspan2223">button</tspan>&gt;</tspan></text>
+   id="tspan2223">button</tspan><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan955">&gt;</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -256,9 +326,13 @@
            x="22.895365"
            y="-1.8781832"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan2237">&lt;/<tspan
-   style="fill:#ffffff"
-   id="tspan2235">div</tspan>&gt;</tspan></text>
+           id="tspan2237"><tspan
+             style="fill:#bdf3d8;fill-opacity:1"
+             id="tspan961">&lt;/</tspan><tspan
+             style="fill:#ffffff"
+             id="tspan2235">div</tspan><tspan
+             style="fill:#bdf3d8;fill-opacity:1"
+             id="tspan963">&gt;</tspan></tspan></text>
     </g>
   </g>
 </svg>

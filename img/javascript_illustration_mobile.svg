@@ -23,18 +23,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="308.57019"
-     inkscape:cy="287.81236"
+     inkscape:zoom="1.979899"
+     inkscape:cx="157.63263"
+     inkscape:cy="115.77407"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g5005"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
      inkscape:window-width="1267"
      inkscape:window-height="724"
-     inkscape:window-x="243"
-     inkscape:window-y="86"
+     inkscape:window-x="83"
+     inkscape:window-y="0"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata4201">
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -74,11 +74,16 @@
            x="53.413177"
            y="-2.384686"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan3992"><tspan
+           id="tspan3992"
+           rotate="0 0 0 0 0 0 0 0 0 0 0 0"><tspan
    style="fill:#ffffff"
-   id="tspan3988">const</tspan> app = <tspan
+   id="tspan3988">const</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan889">app =</tspan> <tspan
    style="font-weight:bold;fill:#ffffff"
-   id="tspan3990">Vue.createApp</tspan>({</tspan></text>
+   id="tspan3990">Vue.createApp</tspan><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan891">({</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -91,7 +96,9 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
            id="tspan3998"><tspan
    style="font-weight:bold;fill:#ffffff"
-   id="tspan3996">data( )</tspan> {</tspan></text>
+   id="tspan3996">data( )</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan893">{</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -101,7 +108,7 @@
            sodipodi:role="line"
            x="66.510834"
            y="8.1985664"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#bdf3d8;fill-opacity:1;stroke-width:0.264583"
            id="tspan4002">return { counter: 20, name: &quot;&quot; };</tspan></text>
       <text
          xml:space="preserve"
@@ -115,7 +122,9 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
            id="tspan4008"><tspan
    style="fill:#ffffff"
-   id="tspan4006">fullQuote( )</tspan> {</tspan></text>
+   id="tspan4006">fullQuote( )</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan899">{</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -126,9 +135,13 @@
            x="49.037628"
            y="13.490192"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan4014">},  <tspan
+           id="tspan4014"><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan895">},</tspan>  <tspan
    style="font-weight:bold;fill:#ffffff"
-   id="tspan4012">computed:</tspan> {</tspan></text>
+   id="tspan4012">computed:</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan897">{</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -139,16 +152,24 @@
            x="75.40506"
            y="29.36507"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan4022">return( &quot;Look at<tspan
-   style="fill:#ffffff"
-   id="tspan4018">...</tspan>&quot; + this.name +</tspan><tspan
+           id="tspan4022"><tspan
+             style="fill:#bdf3d8;fill-opacity:1"
+             id="tspan901">return( &quot;Look at</tspan><tspan
+             style="fill:#ffffff"
+             id="tspan4018">...</tspan><tspan
+             style="fill:#bdf3d8;fill-opacity:1"
+             id="tspan903">&quot; + this.name +</tspan></tspan><tspan
            sodipodi:role="line"
            x="75.40506"
            y="33.995281"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan4096">&quot;<tspan
-   style="fill:#ffffff"
-   id="tspan4020">...</tspan>should be);&quot;</tspan></text>
+           id="tspan4096"><tspan
+             style="fill:#bdf3d8;fill-opacity:1"
+             id="tspan907">&quot;</tspan><tspan
+             style="fill:#ffffff"
+             id="tspan4020">...</tspan><tspan
+             style="fill:#bdf3d8;fill-opacity:1"
+             id="tspan905">should be);&quot;</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -159,9 +180,13 @@
            x="62.733551"
            y="39.948322"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan4028">}, <tspan
+           id="tspan4028"><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan915">},</tspan> <tspan
    style="fill:#ffffff"
-   id="tspan4026">winningMessage( )</tspan> {</tspan></text>
+   id="tspan4026">winningMessage( )</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan909">{</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:start;word-spacing:0px;text-anchor:start;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -171,19 +196,23 @@
            sodipodi:role="line"
            x="52.005463"
            y="45.239948"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:start;text-anchor:start;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:start;text-anchor:start;fill:#bdf3d8;fill-opacity:1;stroke-width:0.264583"
            id="tspan4034">if (this.counter === -1) { </tspan><tspan
            sodipodi:role="line"
            x="52.005463"
            y="49.870159"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:start;text-anchor:start;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan4104">    return &quot;Thank you<tspan
-   style="text-align:start;text-anchor:start;fill:#ffffff"
-   id="tspan4032">...</tspan>&quot;</tspan><tspan
+           id="tspan4104"><tspan
+             style="fill:#bdf3d8;fill-opacity:1"
+             id="tspan911">    return &quot;Thank you</tspan><tspan
+             style="text-align:start;text-anchor:start;fill:#ffffff"
+             id="tspan4032">...</tspan><tspan
+             style="fill:#bdf3d8;fill-opacity:1"
+             id="tspan913">&quot;</tspan></tspan><tspan
            sodipodi:role="line"
            x="52.005463"
            y="54.500374"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:start;text-anchor:start;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:start;text-anchor:start;fill:#bdf3d8;fill-opacity:1;stroke-width:0.264583"
            id="tspan4112">};</tspan></text>
       <text
          xml:space="preserve"
@@ -197,9 +226,13 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
            id="tspan4042"><tspan
    style="fill:#ffffff"
-   id="tspan4038">outputFullQuote( )</tspan> { <tspan
+   id="tspan4038">outputFullQuote( )</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan921">{</tspan> <tspan
    style="fill:#ffffff"
-   id="tspan4040">...</tspan> },</tspan></text>
+   id="tspan4040">...</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan923">},</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -212,9 +245,13 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
            id="tspan4050"><tspan
    style="fill:#ffffff"
-   id="tspan4046">add(num)</tspan> { <tspan
+   id="tspan4046">add(num)</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan927">{</tspan> <tspan
    style="fill:#ffffff"
-   id="tspan4048">...</tspan> },</tspan></text>
+   id="tspan4048">...</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan925">},</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -227,9 +264,13 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
            id="tspan4058"><tspan
    style="fill:#ffffff"
-   id="tspan4054">reduce(num)</tspan> { <tspan
+   id="tspan4054">reduce(num)</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan929">{</tspan> <tspan
    style="fill:#ffffff"
-   id="tspan4056">...</tspan> },</tspan></text>
+   id="tspan4056">...</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan931">},</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -239,7 +280,7 @@
            sodipodi:role="line"
            x="75.514008"
            y="24.073444"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#bdf3d8;fill-opacity:1;stroke-width:0.264583"
            id="tspan4062">if (this.name === &quot;&quot;) { return &quot;&quot;; }</tspan></text>
       <text
          xml:space="preserve"
@@ -253,9 +294,13 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
            id="tspan4076"><tspan
    style="fill:#ffffff"
-   id="tspan4072">resetInput( )</tspan> { <tspan
+   id="tspan4072">resetInput( )</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan935">{</tspan> <tspan
    style="fill:#ffffff"
-   id="tspan4074">...</tspan> },},});</tspan></text>
+   id="tspan4074">...</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan933">},},});</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -273,8 +318,10 @@
              id="tspan4082">.</tspan><tspan
              style="font-weight:bold;fill:#41b783;fill-opacity:1"
              id="tspan4086"><tspan
-   style="fill:#ffffff"
-   id="tspan4084">mount(&quot;#app&quot;)</tspan>;</tspan></tspan></text>
+               style="fill:#ffffff"
+               id="tspan4084">mount(&quot;#app&quot;)</tspan><tspan
+               style="fill:#bdf3d8;fill-opacity:1"
+               id="tspan939">;</tspan></tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -285,9 +332,13 @@
            x="50.562592"
            y="61.114826"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
-           id="tspan4116">}, <tspan
+           id="tspan4116"><tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan919">},</tspan> <tspan
    style="font-weight:bold;fill:#ffffff"
-   id="tspan4120">methods:</tspan> {</tspan></text>
+   id="tspan4120">methods:</tspan> <tspan
+   style="fill:#bdf3d8;fill-opacity:1"
+   id="tspan917">{</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;word-spacing:0px;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
@@ -297,7 +348,7 @@
            sodipodi:role="line"
            x="33.628998"
            y="88.102127"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#41b783;fill-opacity:1;stroke-width:0.264583"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';text-align:center;text-anchor:middle;fill:#bdf3d8;fill-opacity:1;stroke-width:0.264583"
            id="tspan4126">});</tspan></text>
     </g>
   </g>
