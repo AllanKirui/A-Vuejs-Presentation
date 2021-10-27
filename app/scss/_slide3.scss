@@ -1,129 +1,129 @@
 .slide-3 {
-   img.logo-halved {
+  img.logo-halved {
+    position: absolute;
+    top: -0.5%;
+    left: -0.5%;
+  }
+
+  @include breakpoint-down(medium) {
+    width: 90%;
+    height: 100%;
+
+    img.logo-halved {
+      width: 30%;
+    }
+  }
+
+  @include breakpoint-down(small) {
+    width: 100%;
+    height: 100%;
+
+    img.logo-halved {
+      width: auto;
+    }
+  }
+
+  &__image {
+    img {
       position: absolute;
-      top: -0.5%;
-      left: -0.5%;
-   }
+      top: 19%;
+      right: 5%;
+      width: 120px;
+      z-index: -1;
+    }
 
-   @include breakpoint-down(medium) {
-      width: 90%;
-      height: 100%;
-
-      img.logo-halved {
-         width: 30%;
-      }
-   }
-
-   @include breakpoint-down(small) {
-      width: 100%;
-      height: 100%;
-
-      img.logo-halved {
-         width: auto;
-      }
-   }
-
-   &__image {
+    @include breakpoint-down(medium) {
       img {
-         position: absolute;
-         top: 19%;
-         right: 5%;
-         width: 120px;
-         z-index: -1;
+        top: 20%;
       }
+    }
 
-      @include breakpoint-down(medium) {
-         img {
-            top: 20%;
-         }
+    @include breakpoint-down(small) {
+      position: relative;
+      top: 5.5%;
+
+      img {
+        position: relative;
+        bottom: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 220px;
+        z-index: 1;
       }
+    }
+  }
 
-      @include breakpoint-down(small) {
-         position: relative;
-         top: 5.5%;
+  &__title {
+    padding-top: 94px;
 
-         img {
-            position: relative;
-            bottom: 0%;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 220px;
-            z-index: 1;
-         }
-      }
-   }
+    h2 {
+      text-align: center;
+      font-weight: 400;
+    }
 
-   &__title {
-      padding-top: 94px;
+    @include breakpoint-down(small) {
+      padding-top: 110px;
 
       h2 {
-         text-align: center;
-         font-weight: 400;
+        padding: 0 20px;
       }
+    }
+  }
 
-      @include breakpoint-down(small) {
-         padding-top: 110px;
+  &__cards {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    color: $wet_asphalt;
+    margin-top: 60px;
 
-         h2 {
-            padding: 0 20px;
-         }
-      }
-   }
-
-   &__cards {
+    .card {
       display: flex;
-      justify-content: center;
+      align-items: center;
+      width: 240px;
+      height: auto;
+
+      margin: 0 15px 50px;
+
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &__hero {
+    .text {
+      &:not(:last-child) {
+        margin-right: 24px;
+      }
+
+      p {
+        font-size: 72px;
+        color: $wet-asphalt;
+      }
+    }
+
+    @include breakpoint-down(medium) {
+      display: flex;
       flex-flow: wrap;
-      color: $wet_asphalt;
-      margin-top: 60px;
-
-      .card {
-         display: flex;
-         align-items: center;
-         width: 240px;
-         height: auto;
-
-         margin: 0 15px 50px;
-
-         img {
-            margin-right: 10px;
-         }
-      }
-   }
-
-   &__hero {
       .text {
-         &:not(:last-child) {
-            margin-right: 24px;
-         }
-
-         p {
-            font-size: 72px;
-            color: #34495e33;
-         }
+        p {
+          font-size: 54px;
+          margin-bottom: 0;
+        }
       }
+    }
 
-      @include breakpoint-down(medium) {
-         display: flex;
-         flex-flow: wrap;
-         .text {
-            p {
-               font-size: 54px;
-               margin-bottom: 0;
-            }
-         }
+    @include breakpoint-down(small) {
+      .text {
+        &:not(:last-child) {
+          margin-right: 10px;
+        }
+
+        p {
+          font-size: 22px;
+        }
       }
-
-      @include breakpoint-down(small) {
-         .text {
-            &:not(:last-child) {
-               margin-right: 10px;
-            }
-
-            p {
-               font-size: 22px;
-            }
-         }
-      }
-   }
+    }
+  }
 }

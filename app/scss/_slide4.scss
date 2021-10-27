@@ -1,144 +1,149 @@
 .slide-4 {
-   img.logo-halved {
+  img.logo-halved {
+    position: absolute;
+    top: -0.5%;
+    left: -0.5%;
+  }
+
+  @include breakpoint-down(medium) {
+    width: 90%;
+    height: 100%;
+
+    img.logo-halved {
+      width: 30%;
+    }
+  }
+
+  @include breakpoint-down(small) {
+    width: 100%;
+    height: 100%;
+
+    img.logo-halved {
+      width: auto;
+    }
+  }
+
+  &__image {
+    img {
       position: absolute;
-      top: -0.5%;
-      left: -0.5%;
-   }
+      top: 19%;
+      right: 5%;
+      width: 120px;
+      z-index: -1;
+    }
 
-   @include breakpoint-down(medium) {
-      width: 90%;
-      height: 100%;
-
-      img.logo-halved {
-         width: 30%;
-      }
-   }
-
-   @include breakpoint-down(small) {
-      width: 100%;
-      height: 100%;
-
-      img.logo-halved {
-         width: auto;
-      }
-   }
-
-   &__image {
+    @include breakpoint-down(medium) {
       img {
-         position: absolute;
-         top: 19%;
-         right: 5%;
-         width: 120px;
-         z-index: -1;
+        top: 20%;
       }
+    }
 
-      @include breakpoint-down(medium) {
-         img {
-            top: 20%;
-         }
+    @include breakpoint-down(small) {
+      position: relative;
+      top: 5.5%;
+
+      img {
+        position: relative;
+        bottom: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 220px;
+        z-index: 1;
       }
+    }
+  }
 
-      @include breakpoint-down(small) {
-         position: relative;
-         top: 5.5%;
+  &__title {
+    padding-top: 64px;
 
-         img {
-            position: relative;
-            bottom: 0%;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 220px;
-            z-index: 1;
-         }
-      }
-   }
+    h2 {
+      text-align: center;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
 
-   &__title {
-      padding-top: 64px;
+    @include breakpoint-down(small) {
+      padding-top: 110px;
 
       h2 {
-         text-align: center;
-         font-weight: 400;
-         margin-bottom: 10px;
+        padding: 0 20px;
       }
 
-      @include breakpoint-down(small) {
-         padding-top: 110px;
-
-         h2 {
-            padding: 0 20px;
-         }
-
-         p {
-            width: 80%;
-         }
+      p {
+        width: 80%;
       }
-   }
+    }
+  }
 
-   &__content {
-      flex-direction: column;
+  &__content {
+    flex-direction: column;
 
-      .card {
-         width: 400px;
-         padding: 0 5px;
+    ul,
+    p {
+      color: $signal-black;
+    }
 
-         li {
-            list-style: none;
-            margin-left: -40px;
-            margin-bottom: 3px;
-         }
+    .card {
+      width: 400px;
+      padding: 0 5px;
 
-         span {
-            margin-right: 7px;
-         }
+      li {
+        list-style: none;
+        margin-left: -40px;
+        margin-bottom: 3px;
+      }
+
+      span {
+        margin-right: 7px;
+      }
+    }
+
+    &-intro,
+    &-main-feature {
+      .card:first-child {
+        margin-right: 15px;
+      }
+    }
+
+    &-main-feature {
+      h2 {
+        font-weight: 400;
+        font-size: 22px;
+        text-align: center;
+      }
+    }
+
+    @include breakpoint-up(large) {
+      &-intro {
+        .card:last-child {
+          width: 390px;
+        }
+      }
+    }
+
+    @include breakpoint-down(medium) {
+      margin-bottom: 20px;
+
+      .card,
+      &-feature {
+        width: 60%;
       }
 
       &-intro,
       &-main-feature {
-         .card:first-child {
-            margin-right: 15px;
-         }
+        flex-flow: wrap;
+        justify-content: center;
+        .card:first-child {
+          margin-right: 0;
+        }
       }
+    }
 
-      &-main-feature {
-         h2 {
-            font-weight: 400;
-            font-size: 22px;
-            text-align: center;
-         }
+    @include breakpoint-down(small) {
+      .card,
+      &-feature {
+        width: 90%;
       }
-
-      @include breakpoint-up(large) {
-         &-intro {
-            .card:last-child {
-               width: 390px;
-            }
-         }
-      }
-
-      @include breakpoint-down(medium) {
-         margin-bottom: 20px;
-
-         .card,
-         &-feature {
-            width: 60%;
-         }
-
-         &-intro,
-         &-main-feature {
-            flex-flow: wrap;
-            justify-content: center;
-            .card:first-child {
-               margin-right: 0;
-            }
-         }
-      }
-
-      @include breakpoint-down(small) {
-         .card,
-         &-feature {
-            width: 90%;
-         }
-      }
-   }
+    }
+  }
 }

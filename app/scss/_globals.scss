@@ -1,175 +1,181 @@
 html {
-   font-size: 100%;
-   box-sizing: border-box;
+  font-size: 100%;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-   margin: 0;
-   padding: 0;
-   font-family: "PT Sans", sans-serif;
-   color: $wet-asphalt;
-   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+  color: $wet-asphalt;
+  overflow-x: hidden;
 }
 
 h1,
 h2,
 p {
-   margin-top: 0;
+  margin-top: 0;
 }
 h1 {
-   font-size: $font-xl;
+  font-size: $font-xl;
 }
 
 h2 {
-   font-size: $font-lg;
+  font-size: $font-lg;
 }
 
 p {
-   font-size: $font-sm;
+  font-size: $font-sm;
 }
 
 .container {
-   width: 100vw;
-   min-height: 100vh;
-   display: grid;
-   place-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
 
-   @include breakpoint-down(small) {
-      width: auto;
-   }
+  @include breakpoint-down(small) {
+    width: auto;
+  }
 }
 
 .slide {
-   overflow: hidden;
-   width: 1024px;
-   height: 550px;
-   border: 1px solid $wet-asphalt;
-   position: relative;
+  overflow: hidden;
+  width: 1024px;
+  height: 550px;
+  border: 1px solid $wet-asphalt;
+  position: relative;
 
-   img.logo-halved {
-      z-index: -1;
+  img.logo-halved {
+    z-index: -1;
+    position: absolute;
+    top: -0.5%;
+    left: -31.4%;
+  }
+
+  @include breakpoint-down(medium) {
+    width: 90%;
+    height: 80%;
+
+    img.logo-halved {
       position: absolute;
       top: -0.5%;
-      left: -31.4%;
-   }
+      left: -35%;
+    }
+  }
 
-   @include breakpoint-down(medium) {
-      width: 90%;
-      height: 80%;
+  @include breakpoint-down(small) {
+    width: 100vw;
+    height: 100vh;
 
-      img.logo-halved {
-         position: absolute;
-         top: -0.5%;
-         left: -35%;
-      }
-   }
-
-   @include breakpoint-down(small) {
-      width: 100vw;
-      height: 100vh;
-
-      img.logo-halved {
-         left: -31.5%;
-         height: 30%;
-      }
-   }
+    img.logo-halved {
+      left: -31.5%;
+      height: 30%;
+    }
+  }
 }
 
 // Flex box styles
 .flex {
-   display: flex;
+  display: flex;
 
-   &-jc-sb {
-      justify-content: space-between;
-   }
+  &-jc-sb {
+    justify-content: space-between;
+  }
 
-   &-jc-c {
-      justify-content: center;
-   }
+  &-jc-c {
+    justify-content: center;
+  }
 
-   &-ai-c {
-      align-items: center;
-   }
+  &-ai-c {
+    align-items: center;
+  }
 }
 
 // Button styles
 .cta {
-   a {
-      position: relative;
-      overflow: hidden;
-      padding: 18px 50px;
-      text-decoration: none;
-      background-color: $wet-asphalt;
-      color: #fff;
-      font-size: 14px;
-      letter-spacing: 0.1em;
-      cursor: pointer;
-      z-index: 1;
+  a {
+    position: relative;
+    overflow: hidden;
+    padding: 18px 50px;
+    text-decoration: none;
+    background-color: $wet-asphalt;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: color 0.3s;
+    z-index: 1;
 
-      // Set a span's position and transition delay based on it's value of "n"
-      span {
-         position: absolute;
-         left: calc((var(--n) - 1) * 25%);
-         width: 25%;
-         height: 100%;
-         background-color: $mint;
-         border-radius: 50%;
-         transform: translateY(150%);
-         transition: 0.5s;
-         transition-delay: calc((var(--n) - 1) * 0.1s);
-         z-index: -1;
+    // Set a span's position and transition delay based on it's value of "n"
+    span {
+      position: absolute;
+      left: calc((var(--n) - 1) * 25%);
+      width: 25%;
+      height: 100%;
+      background-color: $mint;
+      border-radius: 50%;
+      transform: translateY(150%);
+      transition: 0.5s;
+      transition-delay: calc((var(--n) - 1) * 0.1s);
+      z-index: -1;
 
-         // Give each span element it's own value of "n"
-         &:nth-child(1) {
-            --n: 1;
-         }
-
-         &:nth-child(2) {
-            --n: 2;
-         }
-
-         &:nth-child(3) {
-            --n: 3;
-         }
-
-         &:nth-child(4) {
-            --n: 4;
-         }
+      // Give each span element it's own value of "n"
+      &:nth-child(1) {
+        --n: 1;
       }
 
-      &:hover span {
-         transform: translateY(0) scale(2);
+      &:nth-child(2) {
+        --n: 2;
       }
-   }
 
-   @include breakpoint-down(medium) {
-      margin-bottom: 18px;
-   }
+      &:nth-child(3) {
+        --n: 3;
+      }
+
+      &:nth-child(4) {
+        --n: 4;
+      }
+    }
+
+    &:hover span {
+      transform: translateY(0) scale(2);
+    }
+
+    &:hover {
+      color: $signal-black;
+      transition-delay: 0.35s;
+    }
+  }
+
+  @include breakpoint-down(medium) {
+    margin-bottom: 18px;
+  }
 }
 
 // Helper classes
 .text-bold {
-   font-weight: bold;
+  font-weight: bold;
 }
 
 .text-white {
-   color: #fff;
+  color: #fff;
 }
 
 .hide-for-small {
-   @include breakpoint-down(small) {
-      display: none !important;
-   }
+  @include breakpoint-down(small) {
+    display: none !important;
+  }
 }
 
 .hide-for-large {
-   @include breakpoint-up(medium) {
-      display: none;
-   }
+  @include breakpoint-up(medium) {
+    display: none;
+  }
 }
