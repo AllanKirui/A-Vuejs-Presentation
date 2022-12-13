@@ -111,7 +111,7 @@ What's in view:
 ## Author
 
 -  Github - [Allan Kirui](https://www.github.com/AllanKirui)
--  Instagram - [@nallawilljr](https://www.instagram.com/nallawilljr)
+-  Email - <allan.kirui@outlook.com>
 
 ## Acknowledgments
 
