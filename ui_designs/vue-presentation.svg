@@ -57,9 +57,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.34861482"
-     inkscape:cx="753.89948"
-     inkscape:cy="397.32299"
+     inkscape:zoom="0.087153705"
+     inkscape:cx="-984.40018"
+     inkscape:cy="1399.6865"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -68,7 +68,7 @@
      inkscape:snap-bbox="false"
      inkscape:window-width="1366"
      inkscape:window-height="705"
-     inkscape:window-x="1016"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:snap-global="false"
@@ -82,7 +82,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -101,12 +101,12 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:38.1px;line-height:1.25;font-family:'Work Sans';-inkscape-font-specification:'Work Sans Semi-Bold';word-spacing:0px;stroke-width:0.35247"
        x="29.283878"
-       y="-69.192238"
+       y="-75.013069"
        id="text14"><tspan
          sodipodi:role="line"
          id="tspan12"
          x="29.283878"
-         y="-69.192238"
+         y="-75.013069"
          style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:38.1px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans Semi-Bold';stroke-width:0.35247">A presentation on the Vue.js framework</tspan></text>
     <text
        xml:space="preserve"
@@ -6712,5 +6712,25 @@
          x="213.41264"
          y="-4.7055278"
          style="font-weight:bold;font-size:9.525px;stroke-width:0.264583">Slides 1024px by 550px</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.35247"
+       x="402.4248"
+       y="-52.592335"
+       id="text2261"><tspan
+         sodipodi:role="line"
+         id="tspan2259"
+         x="402.4248"
+         y="-52.592335"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;text-anchor:middle;stroke-width:0.35247">You might need to install the <tspan
+   style="font-weight:bold;text-align:center;text-anchor:middle"
+   id="tspan2267">Work Sans</tspan> and <tspan
+   style="font-weight:bold;text-align:center;text-anchor:middle"
+   id="tspan2265">PT Sans</tspan> fonts from Google Fonts</tspan><tspan
+         sodipodi:role="line"
+         x="402.4248"
+         y="-44.654835"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;text-anchor:middle;stroke-width:0.35247"
+         id="tspan2263">because those are the fonts used in this design file.</tspan></text>
   </g>
 </svg>
